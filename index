@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Form</title>
+</head>
+
+<body>
+
+    <form>
+        <label for="full-name">Your Full Name*</label><br>
+        <input type="text" id="full-name" name="full-name" required><br><br>
+
+        <label for="email">Email*</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number*</label><br>
+        <input type="number" id="phone" name="phone" required><br><br>
+
+        <fieldset>
+            <legend>Preferred Contact Method:</legend>
+            <input id="Phone" type="radio" name="Phone" value="number">
+            <label for="phone">Phone</label><br>
+            <input id="email" type="radio" name="Email" value="email">
+            <label for="email">Email</label><br>
+        </fieldset>
+
+        <label for="message">Message*</label><br>
+        <textarea id="message" name="message" rows="4" cols="40" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
